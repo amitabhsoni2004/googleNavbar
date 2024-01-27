@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.nav {
+    background-color: #d3e3fd;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.left {
+
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: max-content;
+    height: 50px;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+
+.right {
+    display: flex;
+
+
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+
+.right div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right .r-div:hover {
+    background-color: gray;
+}
+.right .r-div.hover_red:hover{
+    background-color: rgba(255, 0, 0, 0.726);
+}
+.right svg {
+    width: 20px;
+}
+
+
+.recent {
+    background-color: #ecf3fe;
+    border-radius: 25%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.recent svg {
+    width: 20px;
+}
+
+
+.recent:hover {
+    background-color: #83b1fa;
+}
+
+
+.tab {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+    width: 200px;
+    padding: 0px 2px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+
+.tab:hover {
+    background-color: #83b1fa;
+}
+
+
+.sec1 {
+
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.sec1 svg {
+    width: 23px;
+}
+
+
+.tab_close {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    /* background-color: #ecf3fe; */
+    justify-content: center;
+    /* border-radius: 50%; */
+    align-items: center;
+}
+
+
+.new_tab {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+}
+
+
+.new_tab:hover {
+    background-color: #83b1fa;
+
+
+}
+
+
+.new_tab svg {
+
+
+    width: 20px;
+    height: 20px;
+
+
+}
+@media screen and (max-width:600px) {
+    .right{
+        display: none;
+    }
+   .nav{
+    justify-content: center;
+   }
+}
+
